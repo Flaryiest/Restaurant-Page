@@ -1,8 +1,8 @@
+
 @font-face {
     font-family: "Roboto";
     src: url("./Roboto-Medium.ttf") format("truetype");
 }
-
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -40,8 +40,8 @@ ol, ul {
 	list-style: none;
 }
 
-.html {
-    font-family: "Roboto", Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+:root {
+    font-family: "Roboto";
 }
 
 
@@ -53,16 +53,24 @@ ol, ul {
     background-color: #65E4A3;
     height: 10dvh;
     max-width: 100dvw;
+    font-family: "Roboto";
 }
 
 .headerLeft {
     margin: min(16px, 1.3vw);
-    margin-left: 10vw;
+    margin-left: 5dvw;
     font-size: 2em;
     font-weight: 500;
 }
 
 .headerRight {
+    margin-right: 10dvw;
+    gap: 12px;
+}
+
+button, .headerRight {
+    background-color: #65E4A3;
+    border: none;
     font-size: 1em;
-    margin-right: 10vw;
+    margin-right: 2dvw;
 }
